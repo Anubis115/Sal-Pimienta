@@ -14,13 +14,23 @@
             <h2>Sal & Pimienta</h2>
         </a>
         <nav>
-            <a href="#" class="nav-link">Inicio</a>
-            <a href="#" class="nav-link">Quienes somos </a>
-            <a href="#" class="nav-link">Productos</a>
-            <a href="#" class="nav-link">Contacto</a>
+            <a href="#inicio" class="nav-link">Inicio</a>
+            <a href="#quienes-somos" class="nav-link">Quienes somos </a>
+            <a href="#productos" class="nav-link">Productos</a>
+            <a href="#contacto" class="nav-link">Contacto</a>
         </nav>
     </header>
-    <div class="productos">
+    <div class="inicio" id="inicio">
+        <h1>Inicio</h1>
+        <p>Acá van las fotos</p>
+    </div>
+    <div class="quienes-somos" id="quienes-somos">
+        <h2> Quienes somos</h2>
+        <p>En Sal & Pimienta, nuestra pasión es la creación de experiencias culinarias únicas y memorables. Somos un emprendimiento dedicado a la elaboración de deliciosas y auténticas creaciones comestibles artesanales.</p>
+        <p>Nuestra historia comenzó con el deseo de compartir con el mundo, el sabor y la tradición de las recetas caseras, elaboradas con cariño y cuidado, como las que solíamos disfrutar en nuestra infancia.</p>
+
+    </div>
+    <div class="productos" id="productos">
         <h3>Productos</h3>
         <ul>
         <li><a href="#" class="nav-link">Pastas</a></li>
@@ -28,15 +38,41 @@
         <li><a href="#" class="nav-link">Cosas Dulces</a></li>    
         </ul>
     </div>
-    <div class="quienes-somos">
-        <h1> Quienes somos</h1>
-        <p>En Sal & Pimienta, nuestra pasión es la creación de experiencias culinarias únicas y memorables. Somos un emprendimiento dedicado a la elaboración de deliciosas y auténticas creaciones comestibles artesanales.</p>
-        <p>Nuestra historia comenzó con el deseo de compartir con el mundo, el sabor y la tradición de las recetas caseras, elaboradas con cariño y cuidado, como las que solíamos disfrutar en nuestra infancia.</p>
+        <div class="formulario" id="contacto">
+        <form>
+            <h4>Contacto</h4>
 
+            <p>Completá el siguiente formulario y te contactaremos a la brevedad</p>
+
+            <div class="input-group"></div>
+            <label for="name"> Nombre: </label>
+            <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required>
+            <br>
+
+            <label for="last_name"> Apellido :</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Ingrese su apellido" required>
+
+            <br>
+            
+            <label for="phone"> Celular: </label>
+            <input type="number" name="phone" id="phone"  placeholder="Ingrese su celular" required>
+
+            <br>
+            <label for="email"> Email:</label>
+            <input type="email" name="email" id="email"  placeholder="Ingrese su email" required>
+        
+            <br>
+            <label for="message" >Mensaje:</label>
+
+            <textarea name="message" id="message" cols="15" rows="2"placeholder="Ingrese su mensaje"></textarea>
+
+            <br>
+            <input class="btn" type="submit" value="Enviar">
+        
+        </form>
+        </div>
     </div>
-    <div class="contacto">
-        <h2>Contactanos</h2>
-    </div>
+    <!--
         <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
@@ -51,6 +87,7 @@
             <small>&copy; 2023 <b>Sal & Pimienta</b> - Todos los Derechos Reservados</small>
         </div>
     </footer>
+-->
 
 </body>
 </html>
