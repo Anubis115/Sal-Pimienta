@@ -68,6 +68,31 @@ color: white;
     margin-bottom: 25px;
     font-size: 20px;
 }
+.boton {
+    position: absolute;
+    top: 50%; /* Alinea el botón verticalmente al centro */
+    left: 50%; /* Alinea el botón horizontalmente al centro */
+    transform: translate(-50%, -50%); /* Centra el botón exactamente en el centro del contenedor */
+    background-color: #0077FF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interior del botón */
+    border: none; /* Quita el borde del botón */
+    text-decoration: none; /* Quita el subrayado del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+
+.boton {
+    position: absolute;
+    top: 50%; /* Alinea el botón verticalmente al centro */
+    left: 50%; /* Alinea el botón horizontalmente al centro */
+    transform: translate(-50%, -50%); /* Centra el botón exactamente en el centro del contenedor */
+    background-color: #0077FF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interior del botón */
+    border: none; /* Quita el borde del botón */
+    text-decoration: none; /* Quita el subrayado del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
 
 @media (max-width:700px){
     header{
