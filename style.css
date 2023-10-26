@@ -9,7 +9,7 @@ body{
 }
 a{
     text-decoration:none;
-    color: aqua;
+    color: #a96800;
 }
 
 
@@ -59,12 +59,12 @@ color: white;
 }
 .pie-pagina .grupo-1 .box h1{
    
-    color: aqua;
+    color: #a96800;
     margin-bottom: 25px;
     font-size: 20px;
 }
 .pie-pagina .grupo-1 .box h2{
-    color: aqua;
+    color: #a96800;
     margin-bottom: 25px;
     font-size: 20px;
 }
