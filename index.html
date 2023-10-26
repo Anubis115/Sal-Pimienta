@@ -22,8 +22,56 @@
     </header>
     <div class="inicio" id="inicio">
         <h1>Inicio</h1>
-        <p>Acá van las fotos</p>
+        <div class="carrusel">
+          <div class="carrusel-item">
+            <img src="assets/chajá mod.jpg" alt="Imagen 1">
+          </div>
+          <div class="carrusel-item">
+            <img src="assets/Chocotorta mod.jpg" alt="Imagen 2">
+          </div>
+          <div class="carrusel-item">
+            <img src="assets/Lemon pie mod.jpg" alt="Imagen 3">
+          </div>
+          <button onclick="avanzarSlide(-1)">Anterior</button>
+          <button onclick="avanzarSlide(1)">Siguiente</button>
+        </div>
+  
+        <script>
+          let slideIndex = 0;
+          const slides = document.getElementsByClassName("carrusel-item");
+          
+          function mostrarSlide(n) {
+            if (n >= slides.length) {
+              slideIndex = 0;
+            }
+            if (n < 0) {
+              slideIndex = slides.length - 1;
+            }
+        
+            for (let i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            
+            slides[slideIndex].style.display = "block";
+          }
+        
+          function avanzarSlide(n) {
+            slideIndex += n;
+            mostrarSlide(slideIndex);
+          }
+        
+          function slideAutomatico() {
+            slideIndex++;
+            mostrarSlide(slideIndex);
+          }
+        
+          mostrarSlide(slideIndex);
+          setInterval(slideAutomatico, 5000);
+        </script>
     </div>
+    
+        
+      
     <div class="quienes-somos" id="quienes-somos">
         <h2> Quienes somos</h2>
         <p>En Sal & Pimienta, nuestra pasión es la creación de experiencias culinarias únicas y memorables. Somos un emprendimiento dedicado a la elaboración de deliciosas y auténticas creaciones comestibles artesanales.</p>
