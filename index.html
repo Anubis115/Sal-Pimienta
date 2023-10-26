@@ -22,36 +22,28 @@
     </header>
     <div class="inicio" id="inicio">
         <h1>Inicio</h1>
-        <h2>Postres</h2>
-        <div class="carrusel">
+        <div class="carrusel" id="carrusel">
           <div class="carrusel-item">
+            <a href="#">
             <img src="assets/chajá mod.jpg" alt="Imagen 1">
+          </a>
           </div>
           <div class="carrusel-item">
+            <a href="#">
             <img src="assets/Chocotorta mod.jpg" alt="Imagen 2">
+          </a>
           </div>
           <div class="carrusel-item">
+            <a href="#">
             <img src="assets/Lemon pie mod.jpg" alt="Imagen 3">
+          </a>
           </div>
-          <button onclick="avanzarSlide(-1)">Anterior</button>
+          <button onclick="avanzarSlide(-1, 'carrusel')">Anterior</button>
           <button onclick="avanzarSlide(1)">Siguiente</button>
         </div>
-
-        <h2>Pastas</h2>
-        <div class="carrusel">
-          <div class="carrusel-item">
-            <img src="assets/cropped-gnocchi-1-1.jpg" alt="Imagen 1">
-          </div>
-          <div class="carrusel-item">
-            <img src="assets/fideos.jpg" alt="Imagen 2">
-          </div>
-          <div class="carrusel-item">
-            <img src="assets/Sorrentinos.jpg" alt="Imagen 3">
-          </div>
-          <button onclick="avanzarSlide(-1)">Anterior</button>
-          <button onclick="avanzarSlide(1)">Siguiente</button>
-        </div>
-  
+        <h2>Postres</h2>
+        
+  <h2>Pastas</h2>
         <script>
           let slideIndex = 0;
           const slides = document.getElementsByClassName("carrusel-item");
