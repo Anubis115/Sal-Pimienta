@@ -24,7 +24,20 @@
     
         <img src="assets/banner.jpg"> <!--banner-->
     
-        <!--
+
+    <div class="quienes-somos" id="quienes-somos">
+      <h2> Quienes somos</h2>
+      <p>En Sal & Pimienta, nuestra pasión es la creación de experiencias culinarias únicas y memorables. Somos un emprendimiento dedicado a la elaboración de deliciosas y auténticas creaciones comestibles artesanales.</p>
+      <p>Nuestra historia comenzó con el deseo de compartir con el mundo, el sabor y la tradición de las recetas caseras, elaboradas con cariño y cuidado, como las que solíamos disfrutar en nuestra infancia.</p>
+
+  </div>
+
+    <div class="productos" id="productos">
+      <h3>Productos</h3>
+  </div>
+    
+    <h4>Postres</h4>
+
         <div class="carrusel" id="carrusel">
           <div class="carrusel-item">
 
@@ -37,10 +50,10 @@
           <div class="carrusel-item">
             <img src="assets/Lemon pie mod.jpg" alt="Imagen 3">
           </div>
-          <button onclick="avanzarSlide(-1, 'carrusel')">Anterior</button>
-          <button onclick="avanzarSlide(1)">Siguiente</button>
+          <button onclick="avanzarSlide(-1, 'carrusel')"><i class="fa-regular fa-circle-left fa-bounce fa-lg"></i></button>
+          <button onclick="avanzarSlide(1)"><i class="fa-regular fa-circle-right fa-bounce fa-lg"></i></button>
         </div>
-      -->
+
 
         <script>
           let slideIndex = 0;
@@ -75,20 +88,8 @@
           setInterval(slideAutomatico, 5000);
         </script>
     </div>
-    <div class="quienes-somos" id="quienes-somos">
-      <h2> Quienes somos</h2>
-      <p>En Sal & Pimienta, nuestra pasión es la creación de experiencias culinarias únicas y memorables. Somos un emprendimiento dedicado a la elaboración de deliciosas y auténticas creaciones comestibles artesanales.</p>
-      <p>Nuestra historia comenzó con el deseo de compartir con el mundo, el sabor y la tradición de las recetas caseras, elaboradas con cariño y cuidado, como las que solíamos disfrutar en nuestra infancia.</p>
-
-  </div>
-
-    <div class="productos" id="productos">
-      <h3>Productos</h3>
-  </div>
-    
-    <h4>Postres</h4>
-        
     <h4>Pastas</h4>
+
         <div class="formulario" id="contacto">
         <form>
             <h4>Contacto</h4>
@@ -131,6 +132,8 @@
                 <div class="red-social">
                     <a href="https://www.facebook.com/profile.php?id=61552521459730&mibextid=ZbWKwL" class="fa fa-facebook" target="_blank"></a>
                     <a href="https://www.instagram.com/salypimienta1128/" class="fa fa-instagram" target="_blank"></a>
+                    <a href="#" class="fa fa-whatsapp" target="_blank"></a>
+
                 </div>
             </div>
         </div>
