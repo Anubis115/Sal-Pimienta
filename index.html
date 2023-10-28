@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Ayuda a definir el ancho, alto y escala del área usada por el navegador para mostrar contenido.-->
     <link rel="stylesheet" href="style.css"> <!--Vincula a css-->
     <script src="https://kit.fontawesome.com/73ed215d4a.js" crossorigin="anonymous"></script>
-    <title>Proyecto Final</title><!--Proporciona el título de la página-->
-</head>
+    <title>Sal & Pimienta</title><!--Proporciona el título de la página-->
+  </head>
 <body> <!--Delimita el cuerpo del documento html-->
     <header> <!---->
         <a href="#" class="logo">
@@ -40,15 +40,30 @@
 
         <div class="carrusel" id="carrusel">
           <div class="carrusel-item">
-
-            <img src="assets/chajá mod.jpg" alt="Imagen 1">
+            <div class="card">
+              <img src="assets/chajá mod.jpg" alt="Imagen de la Card">
+              <div class="card-title-chaja">Chajá</div>
+              <div class="card-content">Como el que hacia la abuela.</div>
+              <div class="card-content-button"><button>Llevalo</button></div>
+            </div>
           </div>
           <div class="carrusel-item">
-            <img src="assets/Chocotorta mod.jpg" alt="Imagen 2">
-          </div>
+            <div class="card">
+              <img src="assets/Chocotorta mod.jpg" alt="Imagen de la Card">
+              <div class="card-title-choco">Chocotorta</div>
+              <div class="card-content">Tentate con el postre mas dulce.</div>
+              <div class="card-content-button"><button>Llevalo</button></div>
+              
+          </div>          </div>
           <div class="carrusel-item">
-            <img src="assets/Lemon pie mod.jpg" alt="Imagen 3">
-          </div>
+            <div class="card">
+              <img src="assets/Lemon pie mod.jpg" alt="Imagen de la Card">
+              <div class="card-title-lemon">Lemon Pie</div>
+              <div class="card-content">Dejate llevar por el sabor.</div>
+              <div class="card-content-button"><button>Llevalo</button></div>
+          
+            </div>
+         </div>
           <button onclick="avanzarSlide(-1, 'carrusel')"><i class="fa-regular fa-circle-left fa-bounce fa-lg"></i></button>
           <button onclick="avanzarSlide(1)"><i class="fa-regular fa-circle-right fa-bounce fa-lg"></i></button>
         </div>
@@ -88,7 +103,6 @@
         </script>
     </div>
     <h4>Pastas</h4>
-
         <div class="formulario" id="contacto">
         <form>
             <h4>Contacto</h4>
@@ -140,7 +154,5 @@
             <small>&copy; 2023 <b>Sal & Pimienta</b> - Todos los Derechos Reservados</small>
         </div>
     </footer>
-
-
 </body>
 </html>

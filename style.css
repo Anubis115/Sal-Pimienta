@@ -80,7 +80,48 @@ color: white;
     text-decoration: none; /* Quita el subrayado del botón */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
   }
+  /* Estilos CSS para la card */
+  .card {
+      width: 150px; /* Ancho de la card */
+      border: 1px solid #ccc; /* Borde de la card */
+      border-radius: 5px; /* Bordes redondeados */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+      padding: 10px; /* Espaciado interior */
+      margin: 10px; /* Márgenes exteriores */
+  }
 
+  /* Estilos CSS para la imagen dentro de la card */
+  .card img {
+      max-width: auto; /* Ajusta el ancho de la imagen al 100% del contenedor */
+      height: auto; /* Mantiene la relación de aspecto */
+      border-radius: 5px; /* Bordes redondeados para la imagen */
+  }
+
+  /* Estilos CSS para el título y el contenido de la card */
+  .card .card-title-chaja {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    left: 35%;
+}
+
+  .card .card-title-choco {
+      font-weight: bold;
+      margin-bottom: 10px;
+      position: relative;
+      left: 20%;
+  }
+  .card .card-title-lemon {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    left: 25%;
+}
+ 
+      .card .card-content-button {
+        position: relative;
+        left: 30%;
+        }
 
 
 @media (max-width:700px){
