@@ -48,7 +48,8 @@ margin-top: -3%;
 
 nav a{
     position: relative;
-    left: 75%;
+    left: 72%;
+    padding-right: 10px;
     font-weight: 600;
     text-decoration: none;
 }
