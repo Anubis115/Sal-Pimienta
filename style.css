@@ -21,6 +21,10 @@ header {
    
     
 }
+.marca-emprendimiento{
+    color: #a96800;
+margin-left: 50%;
+}
 
 
 .logo{
@@ -110,6 +114,37 @@ nav a:hover{
       height: auto; /* Mantiene la relación de aspecto */
       border-radius: 5px; /* Bordes redondeados para la imagen */
   }
+  .card .card-title-ñoquis {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    left: 35%;
+}
+.card .ñoquis-text{
+    position: relative;
+    left: 28%;
+  }
+  .card .card-title-fideos {
+      font-weight: bold;
+      margin-bottom: 10px;
+      position: relative;
+      left: 38%;
+  }
+  
+  .card .fideos-text{
+    position: relative;
+    left: 20%;
+  }
+  .card .card-title-sorrentinos {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    left: 25%;
+} 
+.card .sorrentinos-text{
+    position: relative;
+    left: 10%;
+  }
 
   /* Estilos CSS para el título y el contenido de la card */
   .card .card-title-chaja {
@@ -118,18 +153,27 @@ nav a:hover{
     position: relative;
     left: 35%;
 }
-
   .card .card-title-choco {
       font-weight: bold;
       margin-bottom: 10px;
       position: relative;
-      left: 20%;
+      left: 25%;
+  }
+  .card .choco-text{
+    position: relative;
+    left: 15%;
   }
   .card .card-title-lemon {
     font-weight: bold;
     margin-bottom: 10px;
     position: relative;
     left: 25%;
+}
+.card .card-title-tiramisu {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    left: 30%;
 }
  
       .card .card-content-button {
