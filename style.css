@@ -28,11 +28,13 @@ header {
 .marca-emprendimiento{
     color: #a96800;
 margin-left: 40%;
+margin-top: -3%;
 }
 
 
 .logo{
     display: flex;
+    max-width: fit-content;
     align-items: center;
     text-decoration: none;
     
@@ -45,8 +47,9 @@ margin-left: 40%;
 }
 
 nav a{
+    position: relative;
+    left: 75%;
     font-weight: 600;
-    padding-right: 10px;
     text-decoration: none;
 }
 nav a:hover{
