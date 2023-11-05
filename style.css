@@ -5,7 +5,9 @@ body{
         rgba(207,103,235,1)73%);
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    margin: 0;
+    align-items: center;
+    justify-content: center;
     
 }
 a{
@@ -16,10 +18,12 @@ a{
 
 header {
     display: flex;
-    min-height: 90px;
+    min-height: 70px;
     background-color: rgb(4, 7, 59);
-   
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
 }
 .marca-emprendimiento{
     color: #a96800;
@@ -40,20 +44,13 @@ margin-left: 40%;
     text-decoration:none;
 }
 
-nav{
-    text-align: right;
-    margin-bottom: 50px;
-}
 nav a{
     font-weight: 600;
     padding-right: 10px;
     text-decoration: none;
-    text-align: right;
 }
 nav a:hover{
-    color: white;
-  
-
+color: white;
 }
 .pie-pagina{
     width: 100%;
