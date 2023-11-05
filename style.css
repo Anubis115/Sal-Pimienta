@@ -27,7 +27,7 @@ header {
 }
 .marca-emprendimiento{
     color: #a96800;
-margin-left: 50%;
+margin-left: 40%;
 }
 
 
@@ -166,12 +166,20 @@ color: white;
     position: relative;
     left: 25%;
 }
+.card .lemon-text{
+    position: relative;
+    left: 10%;
+  }
 .card .card-title-tiramisu {
     font-weight: bold;
     margin-bottom: 10px;
     position: relative;
     left: 30%;
 }
+.card .tiramisu-text{
+    position: relative;
+    left: 15%;
+  }
  
       .card .card-content-button {
         position: relative;
