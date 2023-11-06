@@ -196,7 +196,7 @@ color: white;
 
 
 
-
+/**
 @media (max-width:700px){
     header{
         flex-direction: column;
@@ -206,4 +206,40 @@ color: white;
         padding: 10px 0px;
     }
     
+}
+
+**/
+
+/**parte responsiva**/
+@media(max-width: 991px){/**cuando baje a esto se modifique el estilo**/
+
+    .menu{
+             padding:30px ;/**en todas las direcciones**/
+
+    }
+
+    .menu label{
+        /**para que aparezca el menu hamburguesa**/
+        display: initial;
+    }
+    .back{
+        padding: 50px 0 ;/**srriba y abajo - izq y d**/
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color:#2a394f;
+        display:none;
+    }
+
+    .menu .navbar ul li{
+        width:100%
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
 }
