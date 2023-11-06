@@ -27,12 +27,14 @@ header {
 }
 .marca-emprendimiento{
     color: #a96800;
-    margin-left: 40%;
+    margin-left: 8px;
 
   
 }
 
-
+nav{
+    text-align: right;
+}
 .logo{
     display: flex;
     align-items: center;
