@@ -27,12 +27,11 @@ header {
 }
 .marca-emprendimiento{
     color: #a96800;
+margin-left: 40%;
+margin-top: -3%;
+}
 
-    margin-left: 8px;
-}
-nav{
-    text-align: right;
-}
+
 .logo{
     display: flex;
     max-width: fit-content;
@@ -49,8 +48,7 @@ nav{
 
 nav a{
     position: relative;
-    left: 72%;
-    padding-right: 10px;
+    left: 75%;
     font-weight: 600;
     text-decoration: none;
 }
@@ -88,7 +86,7 @@ color: white;
 .pie-pagina .grupo-1 .box h1{
    
     color: #a96800;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 20px;
 }
 .pie-pagina .grupo-1 .box h2{
@@ -155,6 +153,10 @@ color: white;
     position: relative;
     left: 35%;
 }
+.card .chaja-text{
+position: relative;
+left: 5%;
+}
   .card .card-title-choco {
       font-weight: bold;
       margin-bottom: 10px;
@@ -196,7 +198,7 @@ color: white;
 
 
 
-/**
+
 @media (max-width:700px){
     header{
         flex-direction: column;
@@ -206,40 +208,4 @@ color: white;
         padding: 10px 0px;
     }
     
-}
-
-**/
-
-/**parte responsiva**/
-@media(max-width: 991px){/**cuando baje a esto se modifique el estilo**/
-
-    .menu{
-             padding:30px ;/**en todas las direcciones**/
-
-    }
-
-    .menu label{
-        /**para que aparezca el menu hamburguesa**/
-        display: initial;
-    }
-    .back{
-        padding: 50px 0 ;/**srriba y abajo - izq y d**/
-    }
-
-    .menu .navbar{
-        position: absolute;
-        top: 50%;
-        left: 0;
-        right: 0;
-        background-color:#2a394f;
-        display:none;
-    }
-
-    .menu .navbar ul li{
-        width:100%
-    }
-
-    #menu:checked ~ .navbar{
-        display: initial;
-    }
 }
