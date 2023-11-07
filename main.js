@@ -30,4 +30,9 @@ function guardar(){
   document.getElementById("hora").innerHTML = hora;
   document.getElementById("direccion").innerHTML = direccion;
   document.getElementById("zona").innerHTML = zona;
+
+    // Deshabilita los campos de entrada
+    document.getElementById("horaIngresado").disabled = true;
+    document.getElementById("direccionIngresado").disabled = true;
+    document.getElementById("zonaIngresado").disabled = true;
 }
