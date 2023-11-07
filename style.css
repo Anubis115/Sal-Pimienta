@@ -196,7 +196,9 @@ left: 5%;
             align-items: center;
         }
 
-
+.contacto .boton-enviar{
+   position: absolute;
+}
 
 
 @media (max-width:700px){
