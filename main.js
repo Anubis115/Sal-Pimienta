@@ -22,12 +22,12 @@ miBoton.addEventListener("click", function() {
   }
 });
 function guardar(){
-  let nombre = document.getElementById("nombreIngresado").value;
-  let apellido = document.getElementById("apellidoIngresado").value;
-  let telefono = document.getElementById("telefonoIngresado").value;
+  let hora = document.getElementById("horaIngresado").value;
+  let direccion = document.getElementById("direccionIngresado").value;
+  let zona = document.getElementById("zonaIngresado").value;
 
 
-  document.getElementById("nombre").innerHTML = nombre;
-  document.getElementById("apellido").innerHTML = apellido;
-  document.getElementById("telefono").innerHTML = telefono;
+  document.getElementById("hora").innerHTML = hora;
+  document.getElementById("direccion").innerHTML = direccion;
+  document.getElementById("zona").innerHTML = zona;
 }

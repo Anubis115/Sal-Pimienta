@@ -256,11 +256,6 @@
             
             <label for="phone"> Teléfono : </label>
             <input type="number" name="phone" id="phone"  placeholder="Ingrese su teléfono" required>
-
-            <br>
-            <label for="email"> Email:</label>
-            <input type="email" name="email" id="email"  placeholder="Ingrese su email" required>
-        
             <br>
             <label for="message" >Mensaje:</label>
             <br>
@@ -273,27 +268,30 @@
         </form>
         </div>
     </div>
-    <input id="nombreIngresado" type="text" placeholder="Nombre"><br>
-        <input id="apellidoIngresado" type="text" placeholder="Apellido"><br>
-        <input  id="telefonoIngresado"type="text" placeholder="Teléfono"><br>
-        <table>
-          <thead>
-              <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Teléfono</th>
-              </tr>
-          <tbody>
-              <tr>
-                 <td id="nombre"></td>
-                 <td id="apellido"></td>
-                 <td id="telefono"></td>
-              </tr>
-          </tbody>
-          </thead>
-          <button id="guardar" onclick="guardar()">Guardar</button>
-        </table>
-   
+    <div class="resumen">
+      <input id="horaIngresado" type="datetime-local" placeholder="Hora y Dia"><br>
+      <input id="direccionIngresado" type="text" placeholder="Dirección"><br>
+      <input  id="zonaIngresado"type="text" placeholder="Zona"><br>
+      <table>
+        <thead >
+            <tr>
+              <th>Dia y Hora de entrega  </th>
+              <th>Dirección</th>
+              <th>Zona</th>
+            </tr>
+        <tbody>
+            <tr>
+               <td id="hora"></td>
+               <td id="direccion"></td>
+               <td id="zona"></td>
+            </tr>
+        </tbody>
+        </thead>
+        <button class="btn-guardar" id="guardar" onclick="guardar()">Guardar</button>
+      </table>
+ 
+    </div>
+    
         <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">

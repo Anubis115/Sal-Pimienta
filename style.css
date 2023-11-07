@@ -199,7 +199,19 @@ left: 5%;
 .contacto .boton-enviar{
    position: absolute;
 }
-
+.resumen{
+    margin-top: 1%;
+    margin-left: 45%;
+}
+.btn-guardar{
+    margin-top: 2%;
+    margin-left: 10%;
+    color: #fff;
+    background-color: #007bff;
+}
+.datos{
+    margin-bottom: 10px;
+}
 
 @media (max-width:700px){
     header{
