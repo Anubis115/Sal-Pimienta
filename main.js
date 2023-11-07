@@ -21,3 +21,13 @@ miBoton.addEventListener("click", function() {
     alert("¡Gracias por tu mensaje! En breve nos pondremos en contacto");
   }
 });
+function guardar(){
+  let nombre = document.getElementById("nombreIngresado").value;
+  let apellido = document.getElementById("apellidoIngresado").value;
+  let telefono = document.getElementById("telefonoIngresado").value;
+
+
+  document.getElementById("nombre").innerHTML = nombre;
+  document.getElementById("apellido").innerHTML = apellido;
+  document.getElementById("telefono").innerHTML = telefono;
+}
